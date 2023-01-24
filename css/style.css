@@ -14,3 +14,40 @@ a{
     text-decoration: none;
     color: currentColor;
 }
+
+/* GENERALI */
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.ps_header{
+    height: auto;
+    flex-shrink: 0;
+    padding: 10px;
+}
+
+.ps_main{
+    flex-grow: 1;
+    display: flex;
+}
+
+.ps_aside{
+    width: 150px;
+    flex-shrink: 0;
+    overflow: hidden;
+    background-color: rgb(5, 30, 52);
+    color: white;
+    padding: 20px;
+}
+
+.ps_main-content{
+    flex-grow: 1;
+    overflow: auto;
+    padding: 20px;
+}
+
+
+
