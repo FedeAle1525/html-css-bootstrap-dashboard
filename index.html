@@ -11,9 +11,55 @@
 </head>
 <body>
 
+    <!-- Inizio Header -->
     <header class="ps_header">
-        HEADER
+        <nav class="navbar bg-white p-0">
+            <div class="container-fluid">
+            
+                <!-- Logo -->
+                <a class="navbar-brand" href="#">
+                    <img src="./img/logo.svg" alt="LogoBoolean">
+                </a>
+                
+                <!-- Barra Ricerca -->
+                <form class="d-flex flex-grow-1" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
+                </form>
+
+                <!-- Lista Icone -->
+                <ul class="navbar-nav flex-row">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa-solid fa-list-ul"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa-solid fa-circle-question"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-bell"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+          </nav>
     </header>
+    <!-- Fine Header -->
+
 
     <main class="ps_main">
         
