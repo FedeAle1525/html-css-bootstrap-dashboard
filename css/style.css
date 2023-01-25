@@ -70,6 +70,10 @@ body{
     margin-bottom: 5px;
 }
 
+.ps_aside .nav-item:hover{
+    background-color: rgba(255,255,255,0.3);
+}
+
 /* MEDIAQUERY ASIDE */
 
 @media screen and (min-width: 768px) {
