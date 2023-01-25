@@ -10,7 +10,7 @@ ul,ol{
     list-style-type: none;
 }
 
-a{
+a:not(a.card-link){
     text-decoration: none;
     color: currentColor;
 }
@@ -122,6 +122,14 @@ body{
 .ps_app-list{
     gap: 5px;
     flex-wrap: wrap;
+}
+
+/* CONTENT */
+
+.ps_content .row > [class^="col-"]{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 }
 
 /* MEDIAQUERY CONTENT-HEADER */
