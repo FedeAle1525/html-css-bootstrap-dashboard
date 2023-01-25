@@ -44,10 +44,14 @@ body{
     color:orange;
 }
 
+/* MAIN */
+
 .ps_main{
     flex-grow: 1;
     display: flex;
 }
+
+/* ASIDE */
 
 .ps_aside{
     width: 150px;
@@ -56,6 +60,10 @@ body{
     background-color: rgb(5, 30, 52);
     color: white;
     padding: 20px;
+}
+
+.ps_aside .nav-item{
+    color: white;
 }
 
 .ps_main-content{
