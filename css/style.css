@@ -32,11 +32,15 @@ body{
     background-color: rgb(248, 249, 250);
 }
 
+.navbar-brand .ps_logo-mobile{
+    width: 50px;
+}
+
 .navbar-nav > .nav-item{
     padding: 0 10px;
 }
 
-.nav-item i.fa-solid.fa-bell{
+.dropstart i.fa-solid.fa-bell{
     color:orange;
 }
 
