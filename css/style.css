@@ -23,6 +23,14 @@ body{
     height: 100vh;
 }
 
+.ps_fs-12{
+    font-size: 12px;
+}
+
+.ps_fs-24{
+    font-size: 24px;
+}
+
 /* HEADER */
 
 .ps_header{
@@ -93,12 +101,22 @@ body{
 
 }
 
+/* MAIN-CONTENT */
 
 .ps_main-content{
     flex-grow: 1;
     overflow: auto;
-    padding: 20px;
 }
+
+/* CONTENT_HEADER */
+
+.ps_content-header{
+    background-color: rgb(27, 114, 232);
+}
+
+/* .ps_content-header .container{
+    padding: 10px 5px;
+} */
 
 
 
