@@ -114,9 +114,14 @@ body{
     background-color: rgb(27, 114, 232);
 }
 
-/* .ps_content-header .container{
-    padding: 10px 5px;
-} */
+.ps_boolean .badge,
+.ps_boolean-app .badge{
+    background-color: rgba(0, 0, 0, 0.2);
+}
 
+.ps_app-list{
+    gap: 5px;
+    flex-wrap: wrap;
+}
 
 
